@@ -1,0 +1,3 @@
+rootProject.name = "LibRecycler"
+include ':app'
+include ':custom_recycler'
