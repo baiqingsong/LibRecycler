@@ -15,7 +15,7 @@ import java.util.List;
  *           必须设置的属性
  *           recyclerView.setLayoutManager(new LinearLayoutManager(this));
  */
-public abstract class BaseAdapter<T> extends BaseQuickAdapter<T, BaseViewHolder> {
+public abstract class BaseAdapter<T> extends BaseQuickAdapter<T, BaseCustomViewHolder> {
     public BaseAdapter(int layoutResId, @Nullable List<T> data) {
         super(layoutResId, data);
     }
